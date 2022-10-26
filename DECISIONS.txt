@@ -9,3 +9,4 @@ We are tracking tasks with a Trello board (https://trello.com/b/t9n2t3gM/progbla
 We are using a continuous delivery/deployment method, by pushing changes to main from other branches. This ensures we always have a demo available.
 We are using the Bootstrap framework. This is commonly used and respected.
 We are hosting with GitPages. This is an easy and recommended option.
+We are each making our own decisions about how to work on our branches. This allows personal customisation.
