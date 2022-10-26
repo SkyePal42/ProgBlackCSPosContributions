@@ -15,7 +15,7 @@ Bioinformatics:
 - Applications for bioinformatics are widespread, including evolutionary biology, disease prediction and diagnosis, drug discovery and design, and genomic epidemiology.
 - To ensure the future diversity of the banana, a genebank of 1,617 banana accessions (submissions) from 38 countries has been compiled and cryopreserved.
 - This bioinformatic work plays an important role in understanding the genetic variation of banana diversity and will hopefully lead to the production of a disease-resistant, but still tasty, banana.
-- One of the modern healthtech trends is telemedicine which allows receiving medical care remotely. It’s become an essential tool during the Covid pandemic. Still, even without it, remote consultations enable people with disabilities and from remote areas to avoid the need to visit brick and mortar clinics.
+- 
 
 Reference Links:
 - https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/bioinformatics
