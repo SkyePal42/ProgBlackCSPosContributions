@@ -1,0 +1,11 @@
+This document outlines the choices we have made and the reasons for making them.
+
+We have a single remote repository, owned by Skye.
+We decided that each person has their own branch (named after themselves) and pushes their changes to main. This is to avoid confusion from all working on main.
+We decided that one other person must approve all pull requests to main, however it can be anyone. This is avoid approval bottlenecks.
+We are reviewing each pull request with at least one other person. This is to maintain code quality.
+We have each decided a topic to focus on and will create one page on this topic. This is to prevent work duplication.
+We are tracking tasks with a Trello board (https://trello.com/b/t9n2t3gM/progblack-poscontributions). This is because we have used this before.
+We are using a continuous delivery/deployment method, by pushing changes to main from other branches. This ensures we always have a demo available.
+We are using the Bootstrap framework. This is commonly used and respected.
+We are hosting with GitPages. This is an easy and recommended option.
