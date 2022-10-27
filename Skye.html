@@ -22,9 +22,87 @@
 
 <body>
     <div id="navbar"></div>
-    <div class="row">
-        <div class="col-sm-8">Content Stuff Here</div>
-        <div class="col-sm-4">Profile Stuff Here</div>
+    <div class="container-fluid" style="height: 100vh-56px;">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class=" card text-center bg-secondary text-white border-dark"
+                    style="color: black; margin: 20px; height: 90vh;">
+                    <div class="card-header bg-dark">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active nav-btn-dark" id="synopsis-tab" data-bs-toggle="tab"
+                                    data-bs-target="#synopsis" type="button" role="tab" aria-controls="synopsis"
+                                    aria-selected="true">Synopsis</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link nav-btn-dark" id="details-tab" data-bs-toggle="tab"
+                                    data-bs-target="#details" type="button" role="tab" aria-controls="details"
+                                    aria-selected="false">Details</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link nav-btn-dark" id="references-tab" data-bs-toggle="tab"
+                                    data-bs-target="#references" type="button" role="tab" aria-controls="references"
+                                    aria-selected="false">References</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content overflow-auto" id="myTabContent" style="padding: 12px;">
+                        <div class="tab-pane fade show active" id="synopsis" role="tabpanel"
+                            aria-labelledby="details-tab">
+                            The bombe was an electro-mechanical device used by British cryptologists to
+                            help decipher German Enigma-machine-encrypted secret messages during World War II. The US
+                            Navy and US Army later produced their own machines to the same functional
+                            specification, albeit engineered differently both from each other and from Polish and
+                            British bombes.
+                            <br><br>
+                            The British bombe was developed from a device known as the "bomba" (Polish: bomba
+                            kryptologiczna), which had been designed in Poland at the Biuro Szyfrów (Cipher Bureau) by
+                            cryptologist Marian Rejewski, who had been breaking German Enigma messages for the previous
+                            seven years, using it and earlier machines. The initial design of the British bombe was
+                            produced in 1939 at the UK Government Code and Cypher School (GC&CS) at Bletchley Park by
+                            Alan Turing, with an important refinement devised in 1940 by Gordon Welchman. The
+                            engineering design and construction was the work of Harold Keen of the British Tabulating
+                            Machine Company. The first bombe, code-named Victory, was installed in March 1940 while
+                            the second version, Agnus Dei or Agnes, incorporating Welchman's new design, was working by
+                            August 1940.
+                            <br><br>
+                            The bombe was designed to discover some of the daily settings of the Enigma machines on the
+                            various German military networks: specifically, the set of rotors in use and their positions
+                            in the machine; the rotor core start positions for the message—the message key—and one of
+                            the wirings of the plugboard.
+                            <br><br>
+                            - Wikipedia ["Bombe"] Accessed: 27/10/2022 (To Be Reworded in Future)
+                        </div>
+                        <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">Alan
+                            Turing is the best.
+                        </div>
+                        <div class="tab-pane fade" id="references" role="tabpanel" aria-labelledby="references-tab">
+                            <a href="https://en.wikipedia.org/wiki/Bombe" class="text-white">Wikipedia...</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-sm-3" style="padding: 20px;">
+                <div class="card mx-auto" style="background-color: rgb(107, 36, 50); min-height: 90vh">
+                    <img src="img/Skye_Profile.jpg" class="card-img" style="width:95%; margin:2.5%"
+                        alt="Stylised picture of Skye, a girl with pink cat ears in a red hoodie posing for a picture in front of a sakura tree background.">
+                    <div class="card-body" style="background-color: #fd79a8;">
+                        <h5 class="card-title">[Name] ([Pronouns])</h5>
+                        <p class="card-text" style="color: rgb(235, 149, 164);">A short bio, maybe our university
+                            something
+                            about us, what we are studying, our
+                            favourite X...</p>
+                    </div>
+                    <div class="card-footer text-center" style="background-color: #e84393;">
+                        <a href=" #" class="btn btn-primary col-sm-5" style="margin: 5px;">Github</a>
+                        <a href="#" class="btn btn-primary col-sm-5" style="margin: 5px;">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
