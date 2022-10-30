@@ -2,3 +2,12 @@ body {
     background-color: grey;
     color: white;
 }
+
+.nav-btn-dark {
+    color: cyan;
+    background-color: black;
+}
+
+.nav-btn-dark.active {
+    background-color: darkgrey !important;
+}
