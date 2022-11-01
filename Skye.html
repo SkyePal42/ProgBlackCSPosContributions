@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+		<link href="CSS/main.css" rel="stylesheet" />
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.1.min.js"
+			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			$(function () {
+				$("#navbar").load("SharedPages/navbar.html");
+			});
+		</script>
+
+		<title>The Bombe by Skye</title>
+	</head>
+
+	<body>
+		<div id="navbar"></div>
+		<div class="container-fluid" style="height: 100vh-56px">
+			<div class="row">
+				<div class="col-sm-9">
+					<div
+						class="card text-center bg-secondary text-white border-dark"
+						style="color: black; margin: 20px; height: 90vh"
+					>
+						<div class="card-header bg-dark">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link active nav-btn-dark"
+										id="synopsis-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#synopsis"
+										type="button"
+										role="tab"
+										aria-controls="synopsis"
+										aria-selected="true"
+									>
+										Synopsis
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link nav-btn-dark"
+										id="details-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#details"
+										type="button"
+										role="tab"
+										aria-controls="details"
+										aria-selected="false"
+									>
+										Details
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link nav-btn-dark"
+										id="references-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#references"
+										type="button"
+										role="tab"
+										aria-controls="references"
+										aria-selected="false"
+									>
+										References
+									</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content overflow-auto" id="myTabContent" style="padding: 12px">
+							<div
+								class="tab-pane fade show active"
+								id="synopsis"
+								role="tabpanel"
+								aria-labelledby="details-tab"
+							>
+								<br />
+								<div class="row">
+									<div class="col-sm-8 align-self-center">
+										<div class="d-flex flex-column bd-highlight mb-3 d-flex align-items-center">
+											<div class="p-2 bd-highlight">
+												<h1>The Bombe</h1>
+											</div>
+											<div class="p-2 bd-highlight">
+												<p>
+													The beginning of the cryptographic industrial revolution and the birth of
+													modern Computer Science.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<img
+											src="img/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg"
+											class="rounded mx-auto d-block img-fluid w-75"
+										/>
+									</div>
+								</div>
+								<p class="m-auto w-75 mt-5">
+									The bombe was an electro-mechanical device used by British cryptologists to help
+									decipher German Enigma-machine-encrypted secret messages during World War II. The
+									US Navy and US Army later produced their own machines to the same functional
+									specification, albeit engineered differently both from each other and from Polish
+									and British bombes. <br /><br />
+									The British bombe was developed from a device known as the "bomba" (Polish: bomba
+									kryptologiczna), which had been designed in Poland at the Biuro Szyfrów (Cipher
+									Bureau) by cryptologist Marian Rejewski, who had been breaking German Enigma
+									messages for the previous seven years, using it and earlier machines. The initial
+									design of the British bombe was produced in 1939 at the UK Government Code and
+									Cypher School (GC&CS) at Bletchley Park by Alan Turing, with an important
+									refinement devised in 1940 by Gordon Welchman. The engineering design and
+									construction was the work of Harold Keen of the British Tabulating Machine
+									Company. The first bombe, code-named Victory, was installed in March 1940 while
+									the second version, Agnus Dei or Agnes, incorporating Welchman's new design, was
+									working by August 1940.
+									<br /><br />
+									The bombe was designed to discover some of the daily settings of the Enigma
+									machines on the various German military networks: specifically, the set of rotors
+									in use and their positions in the machine; the rotor core start positions for the
+									message—the message key—and one of the wirings of the plugboard.
+									<br /><br />
+									- Wikipedia ["Bombe"] Accessed: 27/10/2022
+								</p>
+							</div>
+							<div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+								<h1>Enigma</h1>
+								The Enigma machine, which combined electrical and mechanical components, was
+								descended from a number of designs that were submitted for patent as early as 1918
+								in Germany and were produced commercially beginning in the early 1920s. Looking
+								rather like a typewriter, it was battery-powered and highly portable. In addition to
+								a keyboard, the device had a lamp board consisting of 26 stenciled letters, each
+								with a small lightbulb behind it.
+								<br /><br />
+								As a cipher clerk typed a message on the keyboard in plain German, letters were
+								illuminated one by one on the lamp board. An assistant recorded the letters by hand
+								to form the enciphered message, which was then transmitted in Morse Code. Each bulb
+								in the lamp board was electrically connected to a letter on the keyboard, but the
+								wiring passed via a number of rotating wheels, with the result that the connections
+								were always changing as the wheels moved. Thus, typing the same letter at the
+								keyboard, such as AAAA..., would produce a stream of changing letters at the lamp
+								board, such as WMEV…. It was this ever-changing pattern of connections that made
+								Enigma extremely hard to break.
+								<br /><br />
+								The earliest success against the German military Enigma was by the Polish Cipher
+								Bureau. In the winter of 1932–33, Polish mathematician Marian Rejewski deduced the
+								pattern of wiring inside the three rotating wheels of the Enigma machine. (Rejewski
+								was helped by photographs, received from the French secret service, showing pages of
+								an Enigma operating manual for September and October 1932.) Before an Enigma
+								operator began enciphering a message, he set Enigma’s three wheels (four in models
+								used by the German navy) to various starting positions that were also known to the
+								intended recipient. In a major breakthrough, Rejewski invented a method for finding
+								out, from each intercepted German transmission, the positions in which the wheels
+								had started at the beginning of the message. In consequence, Poland was able to read
+								encrypted German messages from 1933 to 1939. In the summer of 1939 Poland turned
+								over everything—including information about Rejewski’s Bomba, a machine he devised
+								in 1938 for breaking Enigma messages—to Britain and France. In May 1940, however, a
+								radical change to the Enigma system eliminated the loophole that Rejewski had
+								exploited to discover the starting positions of the wheels. New methods developed at
+								Bletchley Park during 1940 enabled code breakers there to continue to decipher
+								German air force and army communications. However, German naval messages—including
+								the all-important traffic to and from U-boats in the North Atlantic—remained
+								cloaked. (The Poles too had had little success against naval Enigma.) U-boats were
+								sinking such a large number of merchant ships taking food, munitions, and oil to
+								Britain from North America that by 1941 some analysts were predicting that the
+								sinkings would tip Britain into starvation within a few months.
+								<br /><br />
+								In June 1941 British mathematician Alan M. Turing and his group at Bletchley finally
+								succeeded in breaking into the daily communications of the U-boats. Decoded messages
+								revealed the positions of the submarines, enabling ships to avoid contact. Great
+								care was always exercised to conceal the fact that Bletchley had deciphered these
+								messages. For instance, British intelligence leaked false information hinting at
+								revolutionary new developments in long-range radar.
+								<br /><br />
+								Turing was responsible for another major development in breaking Enigma. In March
+								1940, Turing’s first Bombe, a code-breaking machine, was installed at Bletchley
+								Park; improvements suggested by British mathematician Gordon Welchman were
+								incorporated by August. This complex machine consisted of approximately 100 rotating
+								drums, 10 miles of wire, and about 1 million soldered connections. The Bombe
+								searched through different possible positions of Enigma’s internal wheels, looking
+								for a pattern of keyboard-to-lamp board connections that would turn coded letters
+								into plain German. The method depended on human instinct, though; to initiate the
+								process, a code breaker had to guess a few words in the message (these guessed words
+								were called a crib). The Polish Bomba, a simpler 18-drum machine, was a forerunner
+								of the Bombe, but it was based on Rejewski’s method for finding the wheel positions
+								at the start of the message. Unlike Rejewski’s method, the more powerful crib-based
+								method invented by Turing survived the May 1940 change. The war on Enigma was
+								transformed by the high-speed Bombes.
+								<br /><br />
+								- Britannica ["Ultra - Allied Intelligence Project"] Accessed: 1/11/2022
+								<br /><br />
+								<h1>Alan Turing</h1>
+								Alan Turing is one of the most well-known Codebreakers to have worked at Bletchley
+								Park, partly due to the Oscar nominated film, The Imitation Game. For the early part
+								of World War Two, he was head of Hut 8, working on decrypting the German naval
+								Enigma. During this time he designed the famous Bombe machine which would help speed
+								up the process of decrypting Enigma and arguably paved the way for the first
+								computer to be built by other Codebreakers at Bletchley Park.
+								<br /><br />
+								Many historians believe that Allied victory was inevitable; it was just a matter of
+								how long it would take. Turing contributed significantly to the work being done at
+								Bletchley Park and his Bombe machines did undoubtedly speed up the breaking of
+								certain types of enemy ciphers. His work specifically on decrypting German Naval
+								Enigma contributed to the Allies’ success in the Battle of the Atlantic, allowing
+								vital supplies to arrive in Britain from North America in time for D-Day in 1944.
+								It’s important to note that the same is true of a great many people who worked at
+								Bletchley Park during World War II: brilliant minds and hard work came together to
+								solve a seemingly insurmountable problem.
+								<br /><br />
+								Much of Turing’s work has had a massive influence on technology which has become a
+								pivotal part of the modern society. During the war, he made a lot of contributions
+								towards cryptanalysis with new methods to approach codebreaking such as ‘Turingery’.
+								This is still relevant today because cryptography underpins internet security and
+								data protection. Turing is also considered one of the fathers of computer science:
+								Before the war he was working on an idea which he called a ‘universal machine’ which
+								is similar to a computer. His Bombe machine also proved that machines could be used
+								to make problem solving easier and quicker. His work on artificial intelligence has
+								also influenced research into this field and his proposed assessment for computer
+								intelligence is now referred to as “the Turing test”.
+								<br /><br />
+								It seems that Turing was not bashful about his homosexuality, nor that he seemed to
+								struggle with being gay, but neither did he make a point of telling people, as
+								homosexuality was a criminal offence. In 1941, he proposed to his colleague and
+								fellow mathematician and cryptanalyst Joan Clarke, but broke off the engagement
+								shortly afterwards, telling her that he was homosexual. She was apparently unfazed
+								by the revelation. It appears that Turing was generally understood to be homosexual,
+								but it was not publicly spoken about. In January 1952, Turing started a relationship
+								with Arnold Murray and on 23rd January Turing’s house was burgled. Murray told
+								Turing that he knew the burglar. Turing reported this to the police, and in the
+								course of the investigation admitted that he and Murray were in a relationship. Both
+								men were charged with ‘gross indecency’. Turing pled ‘guilty’ in the trial on 31st
+								March 1952 and was given a choice of imprisonment or probation (the latter included
+								a course of hormonal treatment). Today, Turing is often used as a figurehead for the
+								rights of gay people. He’s a relatively well-known person and is used to highlight
+								the mistreatment of homosexual men in the past.
+								<br /><br />
+								- Bletchley Park ["Alan Turing FAQs"] Accessed: 1/11/2022
+								<br /><br />
+								<h1>The Bombe's Legacy</h1>
+								The Bombes represented the first mass production of a specially designed
+								cryptanalytical machine. They heralded the industrialisation of codebreaking and the
+								intelligence they provided was crucial to Allied success in WW2. They were a
+								significant part of the Bletchley Park operation, which was so successful that the
+								Germans remained unaware the information sent on their “unbreakable” Engima machines
+								had actually been cracked by the Allies.
+								<br />
+								- Bletchley Park ["6 facts about the Bombe"] Accessed: 1/11/2022
+								<br /><br />
+								Turing stands alongside Churchill, Eisenhower, and a short glory-list of other
+								wartime principals as a leading figure in the Allied victory over Hitler. There
+								should be a statue of him in London among Britain's other leading war heroes. Some
+								historians estimate that Bletchley Park's massive codebreaking operation, especially
+								the breaking of U-boat Enigma, shortened the war in Europe by as many as two to four
+								years. If Turing and his group had not weakened the U-boats' hold on the North
+								Atlantic, the 1944 Allied invasion of Europe - the D-Day landings - could have been
+								delayed, perhaps by about a year or even longer, since the North Atlantic was the
+								route that ammunition, fuel, food and troops had to travel in order to reach Britain
+								from America. Harry Hinsley, a member of the small, tight-knit team that battled
+								against Naval Enigma, and who later became the official historian of British
+								intelligence, underlined the significance of the U-boat defeat. Any delay in the
+								timing of the invasion, even a delay of less than a year, would have put Hitler in a
+								stronger position to withstand the Allied assault, Hinsley points out. The
+								fortification of the French coastline would have been even more formidable, huge
+								Panzer Armies would have been moved into place ready to push the invaders back into
+								the sea - or, if that failed, then to prevent them from crossing the Rhine into
+								Germany - and large numbers of rocket-propelled V2 missiles would have been raining
+								down on southern England, wreaking havoc at the ports and airfields tasked to
+								support the invading troops.
+								<br /><br />
+								In the actual course of events, it took the Allied armies a year to fight their way
+								from the French coast to Berlin; but in a scenario in which the invasion was
+								delayed, giving Hitler more time to prepare his defences, the struggle to reach
+								Berlin might have taken twice as long. At a conservative estimate, each year of the
+								fighting in Europe brought on average about seven million deaths, so the
+								significance of Turing's contribution can be roughly quantified in terms of the
+								number of additional lives that might have been lost if he had not achieved what he
+								did. If U-boat Enigma had not been broken, and the war had continued for another two
+								to three years, a further 14 to 21 million people might have been killed. Of course,
+								even in a counterfactual scenario in which Turing was not able to break U-boat
+								Enigma, the war might still have ended in 1945 because of some other occurrence,
+								also contrary-to-fact, such as the dropping of a nuclear weapon on Berlin.
+								Nevertheless, these colossal numbers of lives do convey a sense of the magnitude of
+								Turing's contribution.
+								<br />
+								- BBC ["Alan Turing: The codebreaker who saved 'millions of lives'"] Accessed:
+								1/11/2022
+							</div>
+							<div
+								class="tab-pane fade"
+								id="references"
+								role="tabpanel"
+								aria-labelledby="references-tab"
+							>
+								<a href="https://en.wikipedia.org/wiki/Bombe" class="text-white"
+									>Wikipedia - Bombe</a
+								><br /><br />
+								<a href="https://www.britannica.com/topic/Ultra-Allied-intelligence-project" class="text-white"
+									>Britannica - Ultra: Allied Intelligence Project</a
+								><br>
+								<a
+									href="https://bletchleypark.org.uk/our-story/alan-turing-faqs/"
+									class="text-white"
+									>Bletchley Park - Alan Turing FAQs</a
+								><br />
+								<a
+									href="https://bletchleypark.org.uk/our-story/6-facts-about-the-bombe/"
+									class="text-white"
+									>Bletchley Park - 6 facts about the Bombe</a
+								><br />
+								<a href="https://www.bbc.co.uk/news/technology-18419691" class="text-white"
+									>BBC - Alan Turing: The codebreaker who saved 'millions of lives'</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3" style="padding: 20px">
+					<div class="card mx-auto" style="background-color: rgb(107, 36, 50); min-height: 90vh">
+						<img
+							src="img/Skye_Profile.jpg"
+							class="card-img"
+							style="width: 95%; margin: 2.5%"
+							alt="Stylised picture of Skye, a girl with pink cat ears in a red hoodie posing for a picture in front of a sakura tree background."
+						/>
+						<div class="card-body" style="background-color: #fd79a8">
+							<h5 class="card-title">Skye (She/They)</h5>
+							<!--Profile written by Josh-->
+							<p class="card-text">
+								Skye is a first-year undergraduate, studying Computer Science at Durham University
+								(and currently enjoying it!)
+								<br />
+								In their free time, Skye likes watching Japanese media (anime and manga) and would
+								love to live in Japan in future, although they currently live on a farm.
+								<br />
+								They sometimes work on projects like games and creative writing. Their least
+								favourite colour is white (sorry about the text colour!).
+								<br />
+								In the future, Skye’s aims are simple: go to Japan, get a job and be happy!
+							</p>
+						</div>
+						<div class="card-footer text-center" style="background-color: #e84393">
+							<a
+								href="https://github.com/SkyePal42"
+								class="btn btn-primary col-sm-5"
+								style="margin: 5px"
+								>Github</a
+							>
+							<a
+								href="https://www.linkedin.com/in/skye-carroll-630040166"
+								class="btn btn-primary col-sm-5"
+								style="margin: 5px"
+								>LinkedIn</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
