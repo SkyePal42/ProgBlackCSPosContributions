@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+		<link href="CSS/main.css" rel="stylesheet" />
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.1.min.js"
+			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			$(function () {
+				$("#navbar").load("SharedPages/navbar.html");
+			});
+		</script>
+
+		<title>Health and Computer Science</title>
+	</head>
+
+	<body>
+		<div id="navbar"></div>
+		<div class="container-fluid" style="height: 100vh-56px">
+			<div class="row">
+				<div class="col-sm-9">
+					<div
+						class="card text-center bg-secondary text-white border-dark"
+						style="color: black; margin: 20px; height: 90vh"
+					>
+						<div class="card-header bg-dark">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link active nav-btn-dark"
+										id="synopsis-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#synopsis"
+										type="button"
+										role="tab"
+										aria-controls="synopsis"
+										aria-selected="true"
+									>
+										Synopsis
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link nav-btn-dark"
+										id="details-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#details"
+										type="button"
+										role="tab"
+										aria-controls="details"
+										aria-selected="false"
+									>
+										Details
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button
+										class="nav-link nav-btn-dark"
+										id="references-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#references"
+										type="button"
+										role="tab"
+										aria-controls="references"
+										aria-selected="false"
+									>
+										References
+									</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content overflow-auto" id="myTabContent" style="padding: 12px">
+							<div
+								class="tab-pane fade show active"
+								id="synopsis"
+								role="tabpanel"
+								aria-labelledby="details-tab"
+							>
+								<br />
+								<div class="row">
+									<div class="col-sm-8 align-self-center">
+										<div class="d-flex flex-column bd-highlight mb-3 d-flex align-items-center">
+											<div class="p-2 bd-highlight">
+												<h1>Computer Science in the Health Industry</h1>
+											</div>
+											<div class="p-2 bd-highlight">
+												
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<img src="C:\Users\Owner\OneDrive - Durham University\Desktop\Positive Contributions\img\MedicalTech.jpg" class="rounded mx-auto d-block img-fluid w-75" title="Image from shutterstock.com" alt="Medical professional working with futuristic technology."
+										/>
+									</div>
+								</div>
+								<p class="m-auto w-75 mt-5">
+									Computer Science has had an impact on almost all aspects of the health industry - from diagnostics, research and treatment to operational management. The use of technology in health care continues to grow and innovations continue to be made. In 2022, the global market for medical technology encompassed over 455 billion dollars, and medical technology is only part of the ways Computer Science is used in the medical industry. For context, 7.4% of Europe's healthcare expenditure was on medical technology in 2018 and Europe overall spent around $158 billion on medical technology. The use of technology to improve healthcare is clearly a thriving industry, and one that has benefitted many patients.
+								</p>
+							</div>
+							<div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+								<h1>Bioinformatics</h1>
+								<p>Bioinformatics, which is a section of biotechnology that uses computational processes to examine large amounts of biological data, has brought a huge amount of progress to healthcare. Bioinformatics reduces both the financial cost of research and the time taken. For example, bioinformatics made forecasting particular molecules which may inhibit COVID-19 possible, so that laboraties knew which to target in their testing. Bioinformatics can narrow down large data sets in to smaller plausible sets and thereby give direction to research.  </p>
+								<br /><br />
+                                <p>Bioinformatics can also make a difference on a level closer to individual communities - rudimentary bioinformatics tools are already being used in treating patients. The search tool <a href="https://www.omim.org"> OMIM</a> (Online Mendelian Inheritance in Man) is currently used in hospitals for information around genetic disorders, and there are other examples. </p>
+								<br /><br />
+								<p>In the future, bioinformatics is predicted to give rise to a new wave of personalied medical treatment and drugs. Bioinformatics made the mapping of the human genome possible, as accomplished in 2003. The project greatly advanced the methods used for DNA sequencing. This information may lead to personalised treatment based on the genetics of the patient, if the financial and time costs allow.</p>
+								<h1>Medical Software</h1>
+                                <dl>
+                                    <dt>Electronic Health Record and Medical Database Software</dt>
+                                    <dd>EHR software is some of the most used software in hospitals. EHR software stores data on patients - such as past and planned procedures, personal details, appointments and medication - in an efficient and accessible way. Medical database software is similar, but categorised by disease and diagnosis, rather than patient focused. Both can be useful in diagnosing a patient and comparing treatment plans. </dd>
+                                    <dt>Medical Research Software</dt>
+                                    <dd>Medical research software is often open source - allowing the medical community at large to contribute to and access their shared knowledge. This software makes research more efficient, but can also help in the education and training of future medical professionals. The Cancer Biomedical Informatics Grid (<a href="https://biospecimens.cancer.gov/relatedinitiatives/overview/caBig.asp">caBIG</a>) is one such open source network for sharing research, data and tools that may help prevent cancer, understand the causes or treat the symptoms.</dd>
+                                    <dt>Medical Diagnosis Software</dt>
+                                    <dd>Medical diagnosis software can help assist on an individual level - such as software that allows users to enter their symptoms for diagnosis and recommendations - or it can help medical professionals - such as submitting anonymised data in order gain the information they need for a diagnosis. Artificial Intelligence is often used in medical diagnosis software, so as to search through large amounts of data. </dd>
+                                    <dt>Hospital Management Software</dt>
+                                    <dd>Hospital management software makes the daily administraction of hospitals and clinics less time consuming. This may include making the allocation of beds more efficient or automating medical billing or handling out-patient co-ordination. Hospital management software is often integrated with EHR in order to make the administration more comprehensive.</dd>
+                                    <dt>Telemedicine Software</dt>
+                                    <dd>Telemedicine software allows for virtual consultations between doctors and patients - an option that became particularly popular during COVID-19. Telemedicine software can also make medical care more accessible to people with physical disabilities or who for any other reason cannot travel to medical professionals and specialists.</dd>
+                                    <dt>Medical Imaging Software</dt>
+                                    <dd>Medical imaging software involves processing and analysing images in procedures such as PET, CT, MRI and ultrasound scans. The software can help with diagnosis, reduce the need for surgery and make procedures minimally invasive. Medical imaging software can even be integrated with other hospital software - such as hospital administration and EHR software.</dd>
+                                </dl>
+							</div>
+							<div
+								class="tab-pane fade"
+								id="references"
+								role="tabpanel"
+								aria-labelledby="references-tab"
+							>
+								<a href=https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/bioinformatics class="text-white"
+									>Science Direct</a
+								><br /><br />
+								<a href="https://adamasuniversity.ac.in/the-impact-of-bioinformatics-in-the-development-of-vaccines-against-covid-19/" class="text-white"
+									>Adamas University</a><br>
+								<a
+									href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122955/" class="text-white">National Library of Medicine</a
+								><br />
+								<a
+									href="https://uwex.wisconsin.edu/stories-news/the-impact-of-bioinformatics/"
+									class="text-white"
+									>University of Wisconsin</a
+								><br />
+								<a href="https://insights2techinfo.com/how-does-computer-science-influence-medical-research/" class="text-white"
+									>Insights2Techinfo</a
+								>
+                                <br> <br />
+                                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6257447/" class="text-white">National Library of Medicine</a
+								>
+                                <br> <br />
+                                <a href="https://neoteric.eu/blog/software-for-the-healthcare-industry-what-is-it-and-why-its-worth-using/" class="text-white"
+									>Neoteric</a
+								>
+                                <br> <br />
+                                <a href="https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project" class="text-white"
+									>Human Genome Project</a
+								>
+                                <br> <br />
+                                <a href="https://biospecimens.cancer.gov/relatedinitiatives/overview/caBig.asp" class="text-white"
+									>National Cancer Institute</a
+								>
+                                <br> <br />
+                                <a href="https://www.omim.org" class="text-white"
+									>OMIM</a>
+                                <br> <br />
+                                <a href="https://www.netguru.com/blog/healthcare-software-types" class="text-white">Netguru</a>
+                                <br> <br />
+                                <a href="https://codeit.us/blog/medical-image-analysis-processing-software" class="text-white"
+									>CodeIT</a
+								>
+                                <br><br />
+                                <a href="https://www.jonexglobal.com/the-european-medical-technology-market/#:~:text=Globally%2C%20the%20medical%20technology%20industry,was%20spent%20on%20medical%20technology." class="text-white"
+									>JONEX Global</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3" style="padding: 20px">
+					<div class="card mx-auto" style="background-color: rgb(107, 36, 50); min-height: 90vh">
+						<div class="card-body" style="background-color: #fd79a8">
+							<h5 class="card-title"></h5>
+							<!--Profile written by -->
+							<p class="card-text">
+							</p>
+						</div>
+						<div class="card-footer text-center" style="background-color: #e84393">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
