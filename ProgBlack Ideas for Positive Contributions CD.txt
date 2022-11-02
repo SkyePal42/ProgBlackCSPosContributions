@@ -1,0 +1,53 @@
+
+Ideas for Positive CS Contributions:
+
+Bioinformatics:
+
+- cancer community has created such a next-generation World Wide Web, the Cancer Biomedical Informatics Grid (caBIG) 
+
+- Bioinformatics can significantly reduce the cost of research by predicting a few plausible directions amongst hundreds of options. A large amount of data can be analyzed by Bioinformatics to come up with a hypothesis that can be further validated in the laboratory by doing experiments.
+
+- In the current COVID-19 crisis also Bioinformatics is playing a crucial role by predicting suitable drugs against viral targets and subsequently these are now being tested in the laboratory for validation.
+
+- To develop a potent drug against COVID-19 Bioinformatics can help by predicting possible molecules as inhibitors for the virus that can be tested in the laboratory for efficacy
+
+- the entire human genome had been mapped
+
+- The knowledge obtained from these sequence data will have considerable implications for our understanding of biology and medicine. As a result of comparative genomic and proteomic research, we will soon be able to not only locate each human gene but also fully understand its function.
+
+- The project could have considerable impact on people living in 2020—for example, a complete list of human gene products may provide new drugs and gene therapy for single gene diseases may become routine
+
+- Basic bioinformatic tools are already accessed in certain clinical situations to aid in diagnosis and treatment plans. For example, PubMed (www.nlm.nih.gov) is accessed freely for biomedical journals cited in Medline, and OMIM (Online Mendelian Inheritance in Man at www3.ncbi.nlm.nih.gov/Omim/), a search tool for human genes and genetic disorders, is used by clinicians to obtain information on genetic disorders in the clinic or hospital setting.
+ 
+- In the longer term, integrative bioinformatic analysis of genomic, pathological, and clinical data in clinical trials will reveal potential adverse drug reactions in individuals by use of simple genetic tests.
+
+- personalised medicine; patients will carry gene cards with their own unique genetic profile for certain drugs aimed at individualised therapy and targeted medicine free from side effects.
+
+- Applications for bioinformatics are widespread, including evolutionary biology, disease prediction and diagnosis, drug discovery and design, and genomic epidemiology.
+
+- To ensure the future diversity of the banana, a genebank of 1,617 banana accessions (submissions) from 38 countries has been compiled and cryopreserved.
+
+- This bioinformatic work plays an important role in understanding the genetic variation of banana diversity and will hopefully lead to the production of a disease-resistant, but still tasty, banana.
+
+- In the future, if computers are able to process bio-molecules as fast as they process digital data, this could have a tremendous impact on the pharmaceutical industry because it would allow the development of medicines that are customized for an individual’s genetics and physiology. 
+
+- This is why the Semantic Scholar project was created to use data science and machine learning to analyze biomedical data and come up with new insights for how to manage various illnesses
+
+-  computers are now being used to better understand how different enzymes work by monitoring their activity
+
+- Medical informatics is a rapidly growing discipline. It seeks to organize and manage information in support of patient care, biomedical research and education through the aid of computer and information networks
+
+- Laboratory analysis includes blood chemistry, photometry, microbiology, etc. Results must match with patient identification details and should be valid. Quick access to laboratory system can contribute to efficient patient care system.
+
+- Computer Assisted Decision making (CMD)
+It is an interactive computer system that directly assists doctors with clinical decision making task.
+
+- Medical Imaging: During last decade computers were commonly used for high resolution image generation. Dedicated hardware and software is required to generate such images in CT scan, MRI, ultrasound, and gamma cameras.
+
+Reference Links:
+- https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/bioinformatics
+- https://adamasuniversity.ac.in/the-impact-of-bioinformatics-in-the-development-of-vaccines-against-covid-19/
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122955/
+- https://uwex.wisconsin.edu/stories-news/the-impact-of-bioinformatics/
+- https://insights2techinfo.com/how-does-computer-science-influence-medical-research/
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6257447/
