@@ -59,16 +59,33 @@
                                     General Science-y text goes here.
                                 </div>
                                 <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
-                                    <p>"Enter the science you want to find out about."</p>
-                                    <!--Adds a search bar.-->
-                                    <form id="science-search" role="search">
-                                        <input type="search" id="query" name="q"
-                                            placeholder="Enter a science..."
-                                            aria-label="Search through site content">
+                                    <!--This section allows a user to search for a science and get relevant content returned.-->
+                                    <p>What science do you want to find out about?</p>
+                                    <!--Adds a search bar and button.-->
+                                    <form id="form" action="">
+                                        <input id="scienceSearchBar" type="text" placeholder="Enter a science..." aria-label="Search through site content">
                                         <button>Search!</button>
                                     </form>
+                                    <!--Below runs on button click. Reads search bar input, checks if a science, returns relevant file.-->
+                                    <!--Modified from: https://pagedart.com/blog/how-to-add-a-search-bar-in-html/-->
+                                    <script>
+                                        const f = document.getElementById("form");
+                                        function submitted(event) {
+                                            event.preventDefault();
+                                            var userInput = document.getElementById("scienceSearchBar").value;
+                                            //This function is in Josh.js file.
+                                            updateParagraph(userInput);
+                                        }
+                                        f.addEventListener('submit', submitted);
+                                    </script>
+                                    <!--Adds the Josh.js file for the function.-->
+                                    <script src="Josh.js"></script>
+                                    <br>
+                                    <!--Displays the relevant paragraph-->
+                                    <object id="scienceParagraph" data="" width="100%"></object>    
                                 </div>
                                 <div class="tab-pane fade" id="references" role="tabpanel" aria-labelledby="references-tab">
+                                    
                                     <a href="https://en.wikipedia.org/wiki/Bombe" class="text-white">Wikipedia...</a>
                                 </div>
                             </div>
@@ -91,7 +108,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </body>
